@@ -22,12 +22,9 @@
 
 // alert(age);
 
-let login = prompt("Write down your login","");
-let message;
 
-message = (login == "Staff") ? "Hi there":
-          (login == "Director") ? "Hello sir":
-          (login == "") ? "No login":
-          "";
-          
-alert(message);
+
+let SomeThing = "http://placeimg.com/640/480/technics";
+
+document.getElementById("OutPutImage").src = SomeThing;
+
